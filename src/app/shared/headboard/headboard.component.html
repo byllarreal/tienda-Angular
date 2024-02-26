@@ -1,0 +1,12 @@
+<mat-toolbar  color="primary">
+  <button  mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Tienda</span>
+  <span class="example-spacer"></span>
+  <a [routerLink]="['/home']"><mat-icon>home</mat-icon></a>
+  <a [routerLink]="['/productos']" mat-button>Productos</a>
+  <a [routerLink]="['/pago']" mat-button>pago</a>
+  <a [routerLink]="['/carrito']" mat-button><mat-icon>add_shopping_cart</mat-icon></a>
+
+</mat-toolbar>
